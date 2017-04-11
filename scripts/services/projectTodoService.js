@@ -4,20 +4,32 @@
                 [  
 					{
 						Id : 1,
-						url : "https://google.com",
-						displayName : "google",
+						displayName : "Project",
+						url : "",
 						status : "complete"
 					},
-                    {
+					{
 						Id : 2,
-						displayName : "yahoo",
-						url : "https://yahoo.com",
+						displayName : "Controllers",
+						url : "tree/master/scripts/controllers",
+						status : "complete"
+					},
+					{
+						Id : 3,
+						displayName : "Css",
+						url : "tree/master/css",
 						status : "complete"
 					},
                     {
-						Id : 3,
-						displayName : "bing",
-						url : "https://bing.com",
+						Id : 4,
+						displayName : "Services",
+						url : "tree/master/scripts/services",
+						status : "complete"
+					},
+                    {
+						Id : 5,
+						displayName : "Scripts",
+						url : "tree/master/scripts",
 						status : "incomplete"
 					}
                 ];

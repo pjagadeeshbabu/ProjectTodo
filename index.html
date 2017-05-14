@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
     <title>Project Todo</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
@@ -16,25 +16,43 @@
         </div>
         <div class="container">
             <div class="row">
-                <table class="co-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<thead>
-						<tr class="row row-height">
-							<th class="co-lg-3 col-md-3 col-sm-3 col-xs-12"> Sr.No </th>
-							<th class="co-lg-5 col-md-5 col-sm-5 col-xs-12"> Name </th>
-							<th class="co-lg-3 col-md-3 col-sm-3 col-xs-12"> Status </th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr ng-repeat="URL in URLs" class="row row-height" ng-click="openPage(URL.url)">
-							<td class="co-lg-3 col-md-3 col-sm-3 col-xs-12">{{$index+1}}</td>
-							<td class="co-lg-5 col-md-5 col-sm-5 col-xs-12"><a>{{URL.displayName}} </a></td>
-							<td class="co-lg-3 col-md-3 col-sm-3 col-xs-12">{{URL.status}}</td>
-						</tr>
-					</tbody>
-                </table>
+				<div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 div-styles">
+						<div class="co-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<img ng-src="{{masterItem.url}}" class="master-image-styles"/>
+						</div>
+						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+							<div class="master-item-text"> {{masterItem.modelName}} </div>
+							<div class="ordered-list"> 
+								<ul>
+									<li ng-repeat="feature in masterItem.features"> {{feature}} </li>
+								</ul>
+							</div>
+						</div>	
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+							<div class="item-price master-item-price"> ${{masterItem.price}} </div>
+							<div> 
+								<button type="button" class="btn btn-success master-button-styles" ng-click="addToCart(masterItem)">ADD TO CART</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" ng-repeat="item in items">
+					<div class="col-lg-12 col-md-12 col-sm- col-xs-12 div-item-styles">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-3">
+							<img ng-src="{{item.url}}" class="image-styles"/>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-9">
+							<div class="item-text"> {{item.modelName}} </div>
+							<div class="item-price"> ${{item.price}} </div>
+							<div> 
+								<button type="button" class="btn btn-default button-styles" ng-click="updateMaster(item)">VIEW MORE</button>
+							</div>	
+						</div>	
+					</div>	
+				</div>
             </div>
         </div>
     </div>
-
 </body>
 </html>

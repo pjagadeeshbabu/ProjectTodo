@@ -1,44 +1,102 @@
 (function (app) {
 
-    var urls =
+    var items =
                 [  
 					{
 						Id : 1,
-						displayName : "Project",
-						url : "",
-						status : "complete"
+						modelName : "Samsung 4.2-cu ft High-Efficiency Stackable Front-Load Washer (White) ENERGY STAR",
+						url : "images/image1.jpg",
+						price : "719.00",
+						features : [
+							"ENERGY STAR® certified",
+							"Wash cycles include a ColorLast™ cycle",
+							"EcoBoost™ option uses lower water temperatures and increased wash action"
+						]
 					},
 					{
 						Id : 2,
-						displayName : "Controllers",
-						url : "tree/master/scripts/controllers",
-						status : "complete"
+						modelName : "Samsung 4.2-cu ft High-Efficiency Stackable Front-Load Washer (White)",
+						url : "images/image2.jpg",
+						price : "599.00",
+						features : [
+							"ENERGY STAR® certified",
+							"Wash cycles include a ColorLast™ cycle",
+							"EcoBoost™ option uses lower water temperatures and increased wash action"
+						]
 					},
 					{
 						Id : 3,
-						displayName : "Css",
-						url : "tree/master/css",
-						status : "complete"
+						modelName : "Samsung 4.2-cu ft High-Efficiency Stackable Front-Load Washer with Steam",
+						url : "images/image3.jpg",
+						price : "899.00",
+						features : [
+							"ENERGY STAR® certified",
+							"Wash cycles include a ColorLast™ cycle",
+							"EcoBoost™ option uses lower water temperatures and increased wash action"
+						]
 					},
                     {
 						Id : 4,
-						displayName : "Services",
-						url : "tree/master/scripts/services",
-						status : "complete"
+						modelName : "Whirlpool 4.5-cu ft High-Efficiency Stackable Front-Load Washer Steam",
+						url : "images/image4.jpg",
+						price : "649.00",
+						features : [
+							"ENERGY STAR® certified",
+							"Wash cycles include a ColorLast™ cycle",
+							"EcoBoost™ option uses lower water temperatures and increased wash action"
+						]
 					},
                     {
 						Id : 5,
-						displayName : "Scripts",
-						url : "tree/master/scripts",
-						status : "incomplete"
+						modelName : "LG TWINWASH Compatible4.5-cu ft High-EfficiencyStackable Front-Load",
+						url : "images/image5.jpg",
+						price : "670.00",
+						features : [
+							"ENERGY STAR® certified",
+							"Wash cycles include a ColorLast™ cycle",
+							"EcoBoost™ option uses lower water temperatures and increased wash action"
+						]
+					},
+					{
+						Id : 6,
+						modelName : "Maytag Fresh Hold 4.5-cu ft High-Efficiency Stackable Front-Load Washer Steam",
+						url : "images/image6.jpg",
+						price : "519.00",
+						features : [
+							"ENERGY STAR® certified",
+							"Wash cycles include a ColorLast™ cycle",
+							"EcoBoost™ option uses lower water temperatures and increased wash action"
+						]
+					},
+					{
+						Id : 7,
+						modelName : "Samsung 4.2-cu ft High-Efficiency Stackable Front-Load Washer (White) ENERGY STAR",
+						url : "images/image1.jpg",
+						price : "790.00",
+						features : [
+							"ENERGY STAR® certified",
+							"Wash cycles include a ColorLast™ cycle",
+							"EcoBoost™ option uses lower water temperatures and increased wash action"
+						]
+					},
+					{
+						Id : 8,
+						modelName : "Samsung 4.2-cu ft High-Efficiency Stackable Front-Load Washer (White)",
+						url : "images/image2.jpg",
+						price : "599.00",
+						features : [
+							"ENERGY STAR® certified",
+							"Wash cycles include a ColorLast™ cycle",
+							"EcoBoost™ option uses lower water temperatures and increased wash action"
+						]
 					}
                 ];
 				
 	var projectTodoService = function () {
         var projectTodoFactory = {};
 
-        projectTodoFactory.getURLs = function () {
-            return urls;
+        projectTodoFactory.getItems = function () {
+            return items;
         };
 
         return projectTodoFactory;

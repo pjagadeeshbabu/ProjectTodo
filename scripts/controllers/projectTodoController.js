@@ -2,13 +2,21 @@
     var projectToDoController = function ($scope, projectTodoService, $window) {
 		
 		$scope.Title = "Project Todo";	
-		$scope.URLs = projectTodoService.getURLs();
-		$scope.repository = "https://github.com/pjagadeeshbabu/ProjectTodo/";
+		$scope.items = projectTodoService.getItems();
+		$scope.selectedItems = [];
 		
-		$scope.openPage = function(url){
-			var targetURL = $scope.repository + url;
-            $window.open(targetURL, '_blank');
-        };
+		$scope.masterItem = $scope.items[0];
+		
+		$scope.updateMaster = function(item){
+			$scope.masterItem = item
+		}
+		
+		$scope.addToCart = function(item){
+			$scope.selectedItems.push(item);
+			alert("item added successfuly to cart");
+			console.log("Selected Items  :  ");
+			console.log($scope.selectedItems);
+		}
     }
 	app.controller("projectToDoController", ["$scope", "projectTodoService", "$window", projectToDoController]);
 }(angular.module("projectTodoapp")));

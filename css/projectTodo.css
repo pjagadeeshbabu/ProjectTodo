@@ -1,5 +1,5 @@
 .div-styles {
-	border : 1px solid black;
+	border : 2px solid #ccc;
 	height : auto;
 	margin-bottom : 10px;
 	margin-top : 15px;
@@ -41,7 +41,7 @@
 }
 
 .div-item-styles{
-	border : 1px solid black;
+	border : 2px solid #ccc;
 	height : 250px;
 	margin-top : 20px;
 	margin-bottom : 20px;

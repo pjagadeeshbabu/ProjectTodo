@@ -13,7 +13,7 @@
 		
 		$scope.addToCart = function(item){
 			$scope.selectedItems.push(item);
-			alert("item added successfuly to cart");
+			alert("Selected Item price : $" + item.price);
 			console.log("Selected Items  :  ");
 			console.log($scope.selectedItems);
 		}

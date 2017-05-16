@@ -19,9 +19,9 @@
 						url : "images/image2.jpg",
 						price : "599.00",
 						features : [
-							"ENERGY STAR® certified",
-							"Wash cycles include a ColorLast™ cycle",
-							"EcoBoost™ option uses lower water temperatures and increased wash action"
+							"4.2-cu ft capacity offers tremendous tub space, allowing you to finish more laundry in less time",
+							"8 wash cycles, including one for active wear, allow you to customize your cycle without feeling overwhelmed",
+							"ENERGY STAR® certified products help you save money on utility bills without sacrificing performance, style or comfort"
 						]
 					},
 					{
@@ -30,9 +30,9 @@
 						url : "images/image3.jpg",
 						price : "899.00",
 						features : [
-							"ENERGY STAR® certified",
-							"Wash cycles include a ColorLast™ cycle",
-							"EcoBoost™ option uses lower water temperatures and increased wash action"
+							"Smart Care lets you troubleshoot with your smartphone",
+							"Self Clean+ keeps your washer fresh without using harsh chemicals",
+							"VRT Technology reduces noise and vibration"
 						]
 					},
                     {
@@ -41,9 +41,9 @@
 						url : "images/image4.jpg",
 						price : "649.00",
 						features : [
-							"ENERGY STAR® certified",
-							"Wash cycles include a ColorLast™ cycle",
-							"EcoBoost™ option uses lower water temperatures and increased wash action"
+							"Skip adding detergent to every load with LOAD & GO bulk dispenser",
+							"The Wash & Dry cycle dries without having to use the dryer",
+							"The 12-hour FANFRESH option keeps clothes in the washer fresh"
 						]
 					},
                     {
@@ -52,9 +52,9 @@
 						url : "images/image5.jpg",
 						price : "670.00",
 						features : [
-							"ENERGY STAR® certified",
-							"Wash cycles include a ColorLast™ cycle",
-							"EcoBoost™ option uses lower water temperatures and increased wash action"
+							"VRT Technology reduces noise and vibration",
+							"Self Clean+ keeps your washer fresh without using harsh chemicals",
+							"Smart Care lets you troubleshoot with your smartphone"
 						]
 					},
 					{
@@ -63,9 +63,9 @@
 						url : "images/image6.jpg",
 						price : "519.00",
 						features : [
-							"ENERGY STAR® certified",
-							"Wash cycles include a ColorLast™ cycle",
-							"EcoBoost™ option uses lower water temperatures and increased wash action"
+							"The POWERWASH cycle helps remove everyday tough stains",
+							"The FRESH HOLD option keeps clothes fresh with an internal fan",
+							"Power out tought stains with the STEAM FOR STAINS option"
 						]
 					},
 					{
@@ -74,9 +74,9 @@
 						url : "images/image1.jpg",
 						price : "790.00",
 						features : [
-							"ENERGY STAR® certified",
-							"Wash cycles include a ColorLast™ cycle",
-							"EcoBoost™ option uses lower water temperatures and increased wash action"
+							"Smart Care lets you troubleshoot with your smartphone",
+							"Self Clean+ keeps your washer fresh without using harsh chemicals",
+							"VRT Technology reduces noise and vibration"
 						]
 					},
 					{
@@ -85,9 +85,9 @@
 						url : "images/image2.jpg",
 						price : "599.00",
 						features : [
-							"ENERGY STAR® certified",
-							"Wash cycles include a ColorLast™ cycle",
-							"EcoBoost™ option uses lower water temperatures and increased wash action"
+							"Power out tought stains with the STEAM FOR STAINS option",
+							"The POWERWASH cycle helps remove everyday tough stains",
+							"The FRESH HOLD option keeps clothes fresh with an internal fan"
 						]
 					}
                 ];

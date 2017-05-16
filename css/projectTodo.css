@@ -42,11 +42,11 @@
 
 .div-item-styles{
 	border : 1px solid black;
-	height : auto;
-	margin : 5px;
+	height : 250px;
+	margin-top : 20px;
+	margin-bottom : 20px;
 	padding : 0px;
 }
-
 	
 .item-text {
 	display: -webkit-box;
@@ -76,3 +76,19 @@
 	margin-bottom : 15px;
 }
 
+@media screen and (max-width: 480px){
+	.div-item-styles{
+		height : 140px;
+		margin-top : 10px;
+		margin-bottom : 10px;
+	}
+	
+	.text-styles{
+		margin-left : 10px;
+	}
+	
+	.item-text {
+		height: 40px;
+	}
+	
+}
